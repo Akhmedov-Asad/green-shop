@@ -1,0 +1,115 @@
+.hero__container{
+    max-width: 1200px;
+    height: auto;
+    padding: 68px 123px 85px 40px;
+    display: flex;
+}
+.hero-small__subtitle{
+    font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #3D3D3D;
+margin-bottom: 7px;
+}
+.site-hero__title{
+   max-width: 530px;
+   font-weight: 900;
+font-size: 60px;
+line-height: 60px;
+text-transform: uppercase;
+color: #3D3D3D;
+margin-bottom: 5px;
+}
+.planet{
+color: #46A358;
+}
+.hero__subtitlee{
+    max-width: 560px;
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #727272;
+margin-bottom: 55px;
+}
+.hero__btn{
+    background: #46A358;
+border-radius: 6px;
+border: none;
+padding: 11px 27px 9px 26px;
+}
+.hero__btn > a{
+    font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero-responsive{
+    display: none;
+}
+@media screen and (max-width:810px) {
+    .hero-responsive{
+        display: inline-block;
+        width: 100%;
+    }
+    .site-main{
+        display: none;
+    }
+  .hero__res-block{
+    max-width: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../img/bgi.svg);
+  height: 200px;
+  background: #EDEDED;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 24px 0 26px 23px;
+  }
+  .hero__res-left-block{
+    max-width: 206px;
+  }
+  .hero__res-small-subtitle{
+    font-weight: 500;
+font-size: 11px;
+line-height: 16px;
+text-transform: uppercase;
+color: #3D3D3D;
+  }
+  .site__res-hero-title{
+    max-width: 182px;
+    font-weight: 900;
+font-size: 20px;
+line-height: 29px;
+text-transform: uppercase;
+color: #3D3D3D;
+margin-bottom: 3px;
+  }
+  .planet__res{
+    color: #46A358;
+  }
+  .hero__res-subtitlee{
+    font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+color: #727272;
+margin-bottom: 10px;
+  }
+  .shop__res-hero-block{
+    display: flex;
+    align-items: center;
+  }
+  .shop__res-hero-block > p{
+    font-weight: 700;
+font-size: 12px;
+line-height: 14px;
+text-transform: uppercase;
+color: #46A358;
+margin-right: 2px;
+  }
+  .tocka{
+    margin-left: 125px;
+  }
+}

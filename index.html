@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>GREEN SHOP</title>
+</head>
+
+<body>
+
+    <dialog id="modal" open="">
+        <svg id="close-btn" width="24" height="24" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M3.17007 3.17007C3.39682 2.94331 3.76447 2.94331 3.99122 3.17007L9 8.17884L14.0088 3.17007C14.2355 2.94331 14.6032 2.94331 14.8299 3.17007C15.0567 3.39682 15.0567 3.76447 14.8299 3.99122L9.82116 9L14.8299 14.0088C15.0567 14.2355 15.0567 14.6032 14.8299 14.8299C14.6032 15.0567 14.2355 15.0567 14.0088 14.8299L9 9.82116L3.99122 14.8299C3.76447 15.0567 3.39682 15.0567 3.17007 14.8299C2.94331 14.6032 2.94331 14.2355 3.17007 14.0088L8.17884 9L3.17007 3.99122C2.94331 3.76447 2.94331 3.39682 3.17007 3.17007Z"
+            fill="#46A358" />
+
+
+            <div class="modal__inputs">
+                <div class="registrat">
+                <a class="modal__login href="#">
+                    <p ">Login</p>
+                </a>
+                <span class="strelka">|</span>
+                <a  class="modal__registrat" href="#">
+                    <p>Register</p>
+                </a>
+                </div>
+
+                <div class="input__enter">
+                     <p class="input__text">Enter your username and password to login.</p>
+                      <input class="input__email" type="email" id="email" name="email" 
+                      placeholder="almamun_uxui@outlook.com" aria-label="email">
+                      <div class="input-password__flex">
+                          <input class="input__password" type="password" id="password"
+                          name="password" placeholder="***********" aria-label="password">
+                          <img src="./img/Hide.svg" alt="">
+                      </div>
+                      <p class="forgot">Forgot Password?</p>
+                       <button class="inputs__btn">
+                       <a href="#">Login</a>
+                       </button>
+                        <div class="login__with">
+                            <p>Or login with</p>
+                            <button class="google__btn">
+                                <a href="#">Login with Google</a>
+                            </button>
+                            <button class="google__btn-facebook">
+                                <a href="#">Login with Facebook</a>
+                            </button>
+                        </div>
+                </div>
+
+            </div>
+        </svg>
+
+
+    </dialog>
+
+    <header class="site-header">
+        <div class="container header__container">
+            <div class="site-header__top-block">
+                <div class="site-header__img-block">
+                    <img src="./img/Group.svg" alt="img__header">
+                </div>
+                <div class="site-header__center-block">
+                    <ul class="site-header__list">
+                        <li class="site-header__item">
+                            <a class="site-header__item-link" href="#">Home</a>
+                        </li>
+                        <li class="site-header__item">
+                            <a class="site-header__item-link" href="#">Shop</a>
+                        </li>
+                        <li class="site-header__item">
+                            <a class="site-header__item-link" href="#">Plant Care</a>
+                        </li>
+                        <li class="site-header__item">
+                            <a class="site-header__item-link" href="#">Blogs</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="site-header__right-block">
+                    <ul class="right-block__list">
+                        <li class="site-header__search">
+                            <a href="#">
+                                <img src="./img/Vector.svg" alt="img">
+                            </a>
+                        </li>
+                        <li class="site-header__shop">
+                            <a href="#">
+                                <img src="./img/shop.svg" alt="img">
+                            </a>
+                        </li>
+                        <li class="button__item">
+                            <button id="open-btn" class="button__header">
+                                <a href="#">
+                                    <img src="./img/Logout.png" alt="logout">
+                                </a>
+                                <a class="login" href="#">
+                                    Login
+                                </a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="header-section">
+        <div class="input__block">
+            <div class="input__left__block">
+                <img src="./img/Vector.svg" alt="img">
+                <input class="input" type="text" id="search" name="search" placeholder="Find your plants"
+                    aria-label="search">
+            </div>
+        </div>
+        <div class="site-box__right-block">
+            <button class="img__link" href="#">
+                <img src="./img/Filter.svg" alt="">
+            </button>
+        </div>
+    </section>
+
+    <main class="site-main">
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="hero__left-block">
+                    <p class="hero-small__subtitle">Welcome to GreenShop</p>
+                    <h1 class="site-hero__title">Let’s Make a
+                        Better <akh class="planet">Planet</akh>
+                    </h1>
+                    <p class="hero__subtitlee">We are an online plant shop offering a wide range of cheap and trendy
+                        plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!</p>
+                    <button class="hero__btn">
+                        <a href="#">SHOP NOW</a>
+                    </button>
+                </div>
+                <div class="site__right-block">
+                    <div class="hero-img">
+                        <img src="./img/vaza.png" alt="vaza">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="hero-responsive">
+        <div class="container hero__res-container">
+            <div class="hero__res-block">
+                <div class="hero__res-left-block">
+                    <p class="hero__res-small-subtitle">Welcome to GreenShop</p>
+                    <h1 class="site__res-hero-title">Let’s Make a
+                        Better <akh class="planet__res">Planet</akh>
+                    </h1>
+                    <p class="hero__res-subtitlee">We are an online plant shop offering a wide range</p>
+                    <div class="shop__res-hero-block">
+                        <p>SHOP NOW</p>
+                        <img src="./img/Arrow_Right.png" alt="">
+                    </div>
+                </div>
+                <div class="tocka">
+                    <img src="./img/tochki.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+   <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+#modal{
+
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 500px;
+    height: 590px;
+    // border: none;
+}
+#close-btn{
+    padding: 11px 12px 0 0;
+    margin-bottom: 21px;
+    margin-left: auto;
+} 
+
+
+.registrat{
+    display: flex;
+    align-items: center;
+    margin-bottom: 53px;
+}
+.modal__login > p{
+    font-weight: 500;
+font-size: 20px;
+line-height: 16px;
+color: #46A358;
+margin-right: 12px;
+}
+.strelka{
+    font-weight: 250;
+font-size: 18px;
+line-height: 16px;
+color: #3D3D3D;
+margin-right: 10px;
+}
+.modal__registrat > p{
+    font-weight: 500;
+font-size: 20px;
+line-height: 16px;
+color: #3D3D3D;
+}
+.input__enter{
+    width: 300px;
+    height: auto;
+}
+.input__text{
+    width: 280px;
+    font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: #3D3D3D;
+margin-bottom: 14px;
+}
+.input__email{
+    padding: 12px 0 12px 14px;
+    width: 100%;
+    border: 1px solid #EAEAEA;
+border-radius: 5px;
+margin-bottom: 18px;
+}
+.input__password{
+  padding: 17px 0 7px 14px;
+  width: 100%;
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  margin-bottom: 14px;
+}
+.input-password__flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.forgot{
+    font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+color: #46A358;
+margin-left: 175px;
+margin-bottom: 27px;
+}
+.inputs__btn{
+    width: 300px;
+ height: 45px; 
+ background: #46A358;
+border-radius: 5px;
+border: none;
+margin-bottom: 46px;
+}
+.inputs__btn > a{
+    font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+color: #FFFFFF;
+}
+.login__with > p{
+    font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: #3D3D3D;
+margin-bottom: 27px;
+}
+.google__btn{
+    padding: 10px 78px;
+    width: 300px;
+    width: 100%;
+    border: 1px solid #EAEAEA;
+    background: #fff;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../img/google.svg);
+    background-position-x: 80px;
+    margin-bottom: 15px;
+}
+.google__btn > a{
+  margin-left: 29px;
+  font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+color: #727272;
+}
+.google__btn-facebook{
+    padding: 10px 78px;
+    width: 300px;
+    width: 100%;
+    border: 1px solid #EAEAEA;
+    background: #fff;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../img/facebook.svg);
+    background-position-x: 70px;
+    margin-bottom: 15px;
+}
+.google__btn-facebook > a{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #727272;
+}
